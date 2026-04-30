@@ -1,0 +1,54 @@
+:root {
+  --color-bg: #0a0a0a;
+  --color-surface: #1a1a1a;
+  --color-primary: #d32f2f; /* Traditional Karate Red */
+  --color-primary-dark: #b71c1c;
+  --color-secondary: #d4af37; /* Champion Gold */
+  --color-text: #f5f5f5;
+  --color-text-muted: #aaaaaa;
+  --color-belt-white: #ffffff;
+  --color-belt-yellow: #ffd700;
+  --color-belt-orange: #ff9800;
+  --color-belt-green: #4caf50;
+  --color-belt-blue: #2196f3;
+  --color-belt-brown: #795548;
+  --color-belt-black: #000000;
+  
+  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Oswald', sans-serif; /* Strong, bold heading font */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
