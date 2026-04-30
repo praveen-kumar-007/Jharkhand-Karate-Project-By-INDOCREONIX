@@ -43,7 +43,7 @@ const Features = () => {
           {featuresData.map((feature, index) => (
             <motion.div 
               key={feature.id}
-              className="feature-card"
+              className={`feature-card feature-card-${index + 1}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

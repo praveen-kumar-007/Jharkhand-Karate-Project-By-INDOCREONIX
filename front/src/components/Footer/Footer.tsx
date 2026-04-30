@@ -12,7 +12,7 @@ const Footer = () => {
             JHSKA <span className="logo-accent">KARATE</span>
           </Link>
           <p className="footer-desc">
-            The Japan Shotokan Karate Association is dedicated to preserving the traditional martial art while adapting it for modern self-defense and personal development.
+            The Jharkhand State Karate Association is dedicated to promoting traditional martial arts, modern self-defense, and athletic development across the state.
           </p>
           <div className="social-icons">
             <a href="#" className="social-icon"><FaFacebook /></a>
@@ -38,11 +38,11 @@ const Footer = () => {
           <ul>
             <li>
               <MapPin size={18} className="contact-icon" />
-              <span>123 Dojo Street, Martial Arts District, City 10001</span>
+              <span>Barganda, Giridih, Jharkhand 815301, India</span>
             </li>
             <li>
               <Phone size={18} className="contact-icon" />
-              <span>+1 (555) 123-4567</span>
+              <span>+91 98765 43210</span>
             </li>
             <li>
               <Mail size={18} className="contact-icon" />
